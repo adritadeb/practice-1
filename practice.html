@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+    <script src="https://kit.fontawesome.com/77ad5e4e37.js" crossorigin="anonymous"></script>
+    <style>
+        .position div {
+            border: 1px dashed palevioletred;
+            width: 500px;
+        }
+
+        .box {
+            height: 300px;
+            width: 300px;
+            background-color: lightcoral;
+        }
+
+        .box:hover {
+            transform: scale(0.5) translate(50px);
+        }
+
+        .position {
+            position: relative;
+        }
+
+        #bat {
+            position: relative;
+            z-index: -1;
+            top: 100px;
+        }
+
+        .dummy {
+            height: 150px;
+            width: 250px;
+            background-color: pink;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        td,
+        th {
+            border: 1px solid lightgray;
+        }
+
+        .fas {
+            font-size: 80px;
+        }
+
+        #style1 {
+            background-color: pink;
+        }
+
+        #style {
+            padding: 40px 30px 0px 40px;
+            margin: 30px 20px 10px 20px;
+            font-weight: 600;
+            border: 2px solid indigo;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <ol>
+            <li>span, input, i, b, label, textarea, a</li>
+            <li>div, p, h1-h6, ol, section, table, footer</li>
+            <li>button, select</li>
+        </ol>
+    </section>
+    <section class="position">
+        <div id="bat"><img src="images/cricket_bat-removebg-preview.png" alt=""></div>
+        <div><img src="images/sreejita.png" alt=""></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+    </section>
+    <section>
+        <table>
+            <caption>My Table</caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Birthday</th>
+                    <th>resturent</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Abul</td>
+                    <td>dhaka</td>
+                    <td>12 january</td>
+                    <td>red chilli</td>
+
+                </tr>
+                <tr>
+                    <td>Babul</td>
+                    <td>rajshahi</td>
+                    <td>3 october</td>
+                    <td>sadias kitchen</td>
+                </tr>
+                <tr>
+                    <td>Kabul</td>
+                    <td>chattogram</td>
+                    <td>26 march</td>
+                    <td>rodela bikel</td>
+                </tr>
+                <tr>
+                    <td>Dabul</td>
+                    <td>khulna</td>
+                    <td>5 october</td>
+                    <td>dawat</td>
+                </tr>
+                <tr>
+                    <td>ebul</td>
+                    <td>maymansingh</td>
+                    <td>26 september</td>
+                    <td>signature</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="style1">
+        <h1>Semantic tags</h1>
+        <p id="style">Semantic tags provide the information of the content systametically. We can arrange our code with
+            it.
+            Semantic tags describe the purpose of the element and the type of content that is inside them. By using
+            these tags one can easily understand the information about the content. That's why these are called semantic
+            tags. The examples of semantic tags are - header, footer, article, main, aside etc.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/aa9YX17mHVQ?autoplay=1&mute=1"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <a target=_blank href="https://web.programming-hero.com/"><i class="fas fa-house-user"></i></a>
+    </section>
+    <div class="box"></div>
+</body>
+
+</html>
